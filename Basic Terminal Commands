@@ -8,6 +8,14 @@ cd _NAME_ -> move inside the director _NAME_
 cd -> move up by one directory
 touch _FILENAME_ -> makes a new file named _FILENAME_
 nano _FILENAME_ -> opens file in terminal for editing purpose
-
+cat _FILENAME_ -> shows all content of file
+rm -rf _FILENAME_ ->deletes a file with name _FILENAME_
+git log ->shows all log 
+git status -> shows status of all files
+git commit -m "This is a message" -> This Commits data with message shown by -m flag
+Note: When some data is unstaged we can stage it using 'git add .' and now it's our will to commit it or not .. If we do not want to commit it and want to temporarily 
+hold it somewhere like a backstage we can instead of 'commit' do 'git stash' This will send all the data to the backstage and the unstaged changes will be staged .
+Now if we want to again bring them back from backstage to stage we can do 'git stash pop' and we will get all the data back and the pop stash changes become 
+unstaged again.
 
 For Windows:
