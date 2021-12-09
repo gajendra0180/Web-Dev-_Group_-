@@ -17,5 +17,9 @@ Note: When some data is unstaged we can stage it using 'git add .' and now it's 
 hold it somewhere like a backstage we can instead of 'commit' do 'git stash' This will send all the data to the backstage and the unstaged changes will be staged .
 Now if we want to again bring them back from backstage to stage we can do 'git stash pop' and we will get all the data back and the pop stash changes become 
 unstaged again.
+git remote add origin _URL_ ->links a repo with the git folder on local system
+git remote -v
+git push origin master  -> pushes all data from the local git folder to git repo
+
 
 For Windows:
