@@ -20,6 +20,6 @@ unstaged again.
 git remote add origin _URL_ ->links a repo with the git folder on local system
 git remote -v
 git push origin master  -> pushes all data from the local git folder to git repo
-
+git push origin master -f ->force push a commit (this is used when we have deleted some file from local )
 
 For Windows:
