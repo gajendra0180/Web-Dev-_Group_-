@@ -1,3 +1,5 @@
+
+For Terminal:
 mkdir _FOLDERNAME_ ->Creates a folder with name _FOLDERNAME_
 init -> initialises git 
 ls -a ->shows hidden files 
@@ -6,3 +8,6 @@ cd _NAME_ -> move inside the director _NAME_
 cd -> move up by one directory
 touch _FILENAME_ -> makes a new file named _FILENAME_
 nano _FILENAME_ -> opens file in terminal for editing purpose
+
+
+For Windows:
