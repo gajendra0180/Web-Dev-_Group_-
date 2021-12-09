@@ -1,8 +1,8 @@
 
 For Terminal:
 mkdir _FOLDERNAME_ ->Creates a folder with name _FOLDERNAME_
-init -> initialises git 
-ls -a ->shows hidden files 
+init -> initialises git
+ls -a ->shows hidden files
 ls -> show all files in a directory
 cd _NAME_ -> move inside the director _NAME_
 cd -> move up by one directory
@@ -10,12 +10,12 @@ touch _FILENAME_ -> makes a new file named _FILENAME_
 nano _FILENAME_ -> opens file in terminal for editing purpose
 cat _FILENAME_ -> shows all content of file
 rm -rf _FILENAME_ ->deletes a file with name _FILENAME_
-git log ->shows all log 
+git log ->shows all log
 git status -> shows status of all files
 git commit -m "This is a message" -> This Commits data with message shown by -m flag
-Note: When some data is unstaged we can stage it using 'git add .' and now it's our will to commit it or not .. If we do not want to commit it and want to temporarily 
+Note: When some data is unstaged we can stage it using 'git add .' and now it's our will to commit it or not .. If we do not want to commit it and want to temporarily
 hold it somewhere like a backstage we can instead of 'commit' do 'git stash' This will send all the data to the backstage and the unstaged changes will be staged .
-Now if we want to again bring them back from backstage to stage we can do 'git stash pop' and we will get all the data back and the pop stash changes become 
+Now if we want to again bring them back from backstage to stage we can do 'git stash pop' and we will get all the data back and the pop stash changes become
 unstaged again.
 git remote add origin _URL_ ->links a repo with the git folder on local system
 git remote -v
@@ -23,3 +23,23 @@ git push origin master  -> pushes all data from the local git folder to git repo
 
 
 For Windows:
+mkdir folder_name // making new directory using cmd window
+type nul> file_name //creates a file with name file_name
+del file_name //deletes a file with name file_name
+cd folder_name //moves inside the directory folder_name
+git init // for initialising git
+git status // for checking status of all files
+git add . // for adding all files to staging area
+git add file_name // for adding a file to staging area
+git commit -m "message" // for committing all staged files
+git stash // for saving all unstaged changes
+git stash pop // for bringing all unstaged changes back
+git stash list // for listing all stashed changes
+git stash clear // for clearing all stashed changes
+git remote add origin
+git remote -v // for showing all remotes
+git push origin master // for pushing all changes to remote repo
+git pull origin master // for pulling all changes from remote repo
+git log // for showing all commits
+
+
