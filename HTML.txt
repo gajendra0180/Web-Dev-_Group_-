@@ -1,0 +1,6 @@
+to define comment in html 
+<!-- way to write comment-->
+
+1-> keep in mind , for inline element we cannot give width, height, and top margin and bottom margin but except in img tag
+
+
