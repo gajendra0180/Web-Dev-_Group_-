@@ -2,7 +2,11 @@ to define comment in html
 <!-- way to write comment-->
 
 1-> keep in mind , for inline element we cannot give width, height, and top margin and bottom margin but except in img tag
-2. Note while using multiple classes with conflicting properties the class which is more at the bottom will dominate;
+2-> Specificity
+
+inline style attribute > id selector > class selector > element selector
+
+Note while using multiple classes with conflicting properties the specificity class which is more at the bottom will dominate;
 eg.
 styles.css
  
