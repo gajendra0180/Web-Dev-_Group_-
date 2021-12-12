@@ -24,3 +24,9 @@ index.html
 
 Here In both the cases the .text-red will dominate due to its lower position in styles.css
 
+3->
+if we manually specify  width and height to inline elements then no effect will take place/
+If we manually specify width and height to block level elements then their will be some effect,
+
+In inline elements we cannot give margin to top and bottom only can be given in left and right direction;
+Do not use padding in inline elements;
