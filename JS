@@ -1,0 +1,3 @@
+Typeof
+Null -> object
+Undefined -> undefined
