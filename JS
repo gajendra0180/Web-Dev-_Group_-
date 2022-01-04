@@ -48,3 +48,8 @@ let y = 20;
 let z = "The result is: " + x + y;
 
 output will be The result is: 1020   because (string+number+number) is taking place 
+
+
+
+# But numbers can also be defined as objects with the keyword new:
+let y = new Number(123);
