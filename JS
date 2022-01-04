@@ -2,6 +2,11 @@ Typeof
 Null -> object
 Undefined -> undefined
 
+
+
+Comparing two JavaScript objects always returns false.
+
+
 substr -> (start,length)
 substring -> (start,end)
 slice -> (start,end)
