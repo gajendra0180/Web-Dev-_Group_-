@@ -1,3 +1,15 @@
 Typeof
 Null -> object
 Undefined -> undefined
+
+substr -> (start,length)
+substring -> (start,end)
+slice -> (start,end)
+
+
+In javascript:
+All string methods return a new string. They don't modify the original string.
+
+Formally said:
+
+Strings are immutable: Strings cannot be changed, only replaced.
