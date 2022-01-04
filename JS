@@ -26,7 +26,7 @@ It is read only. str[0] = "A" gives no error (but does not work!)
 
 
 
-The two methods, indexOf() and search(), are equal?
+# The two methods, indexOf() and search(), are equal?
 
 They accept the same arguments (parameters), and return the same value?
 
@@ -34,3 +34,17 @@ The two methods are NOT equal. These are the differences:
 
 The search() method cannot take a second start position argument.
 The indexOf() method cannot take powerful search values (regular expressions).
+
+
+
+
+#In JS
+String+number or number+string or string+string always yields concatenation
+String(any other operator)number or number(any other operator)string or string(any other operator)string always yields mathematical evaluation
+
+Note :
+let x = 10;
+let y = 20;
+let z = "The result is: " + x + y;
+
+output will be The result is: 1020   because (string+number+number) is taking place 
