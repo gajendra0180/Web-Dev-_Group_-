@@ -1,5 +1,5 @@
 
-For Terminal:
+For Linux:
 mkdir _FOLDERNAME_ ->Creates a folder with name _FOLDERNAME_
 init -> initialises git
 ls -a ->shows hidden files
@@ -21,6 +21,9 @@ git remote add origin _URL_ ->links a repo with the git folder on local system
 git remote -v
 git push origin master  -> pushes all data from the local git folder to git repo
 git push origin master -f ->force push a commit (this is used when we have deleted some file from local )
+synclient VertScrollDelta=-208 (reverse scroll direction)
+kiling a process by name : killall -9 NAME_OF_APPLICATION
+
 
 For Windows:
 mkdir folder_name // making new directory using cmd window
