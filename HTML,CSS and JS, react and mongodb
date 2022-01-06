@@ -95,3 +95,9 @@ output will be The result is: 1020   because (string+number+number) is taking pl
 
 # But numbers can also be defined as objects with the keyword new:
 let y = new Number(123);
+
+
+
+Mongodb:
+RDBMS ->Mysql tables      row      column
+NRDBMS->BSON  collections document field
