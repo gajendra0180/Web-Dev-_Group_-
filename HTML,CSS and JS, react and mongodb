@@ -146,4 +146,7 @@ The easiest way to install MongoDB and use the mongod command on ubuntu 18.04.
      $ sudo systemctl stop mongodb
 8. Finally, you can run the mongod:
      $ sudo mongod
+     
+     
+ How to run after installtion: sudo mongod in one shell and mongo in another shell
 
