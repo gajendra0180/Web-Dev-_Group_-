@@ -73,6 +73,7 @@ Execution stack : Also known as call stack where all our execution contexts are 
 Hoisting : JS mechanism where variable and function declarations are moved to the top of their scope before code execution.
 Execution Phases: 1)Creation Phase ->a) variables created b)scope chains created c)'this'variable  
   2)Execution Phase ->runs current execution context line by line
- 
+  
+ Functions are also called as first class citizens in JS because functions in JS can be treated like variables
  
 
