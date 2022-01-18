@@ -76,4 +76,5 @@ Execution Phases: 1)Creation Phase ->a) variables created b)scope chains created
   
  Functions are also called as first class citizens in JS because functions in JS can be treated like variables
  
+ CallBack Function : The function that we pass as an argument to another function is called a callBack function.
 
