@@ -70,4 +70,9 @@ let y = new Number(123);
 Execution Context : environment in which our JS code is executed and evaluated. 
 Global Execution Context : Default execution context
 Execution stack : Also known as call stack where all our execution contexts are stacked
-Hoisting : JS mechanism where variable and function declarations are moved to the top of their scope becore code execution.
+Hoisting : JS mechanism where variable and function declarations are moved to the top of their scope before code execution.
+Execution Phases: 1)Creation Phase ->a) variables created b)scope chains created c)'this'variable  
+  2)Execution Phase ->runs current execution context line by line
+ 
+ 
+
