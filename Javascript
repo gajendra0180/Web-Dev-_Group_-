@@ -62,7 +62,8 @@ output will be The result is: 1020   because (string+number+number) is taking pl
 let y = new Number(123);
 
 
-
+//Converting a number to any base in JS
+console.log(2+3).toString(2)
 
 
 
