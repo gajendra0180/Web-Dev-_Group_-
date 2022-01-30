@@ -81,4 +81,5 @@ Execution Phases: 1)Creation Phase ->a) variables created b)scope chains created
  
  
  https://www.freecodecamp.org/news/function-hoisting-hoisting-interview-questions-b6f91dbc2be8/
+ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
 
